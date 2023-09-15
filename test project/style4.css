@@ -1,0 +1,38 @@
+body{
+    margin: 10px 80px;
+    font-family: Noto Sans Jp, sans-serif;
+    background-image: radial-gradient(circle at center center, rgb(89, 6, 134) 0%, rgb(89, 6, 134) 3%,rgb(108, 25, 146) 3%,
+     rgb(108, 25, 146) 9%,rgb(126, 45, 158) 9%, rgb(126, 45, 158) 12%,rgb(145, 64, 171) 12%, rgb(145, 64, 171) 20%,
+rgb(163, 83, 183) 20%, rgb(163, 83, 183) 30%,rgb(182, 103, 195) 30%, rgb(182, 103, 195) 32%,transparent 32%,
+transparent 100%),radial-gradient(circle at center left, rgb(89, 6, 134) 0%, rgb(89, 6, 134) 4%,rgb(108, 25, 146) 4%,
+ rgb(108, 25, 146) 10%,rgb(126, 45, 158) 10%, rgb(126, 45, 158) 15%,rgb(145, 64, 171) 15%, rgb(145, 64, 171) 18%,
+rgb(163, 83, 183) 18%, rgb(163, 83, 183) 24%,rgb(182, 103, 195) 24%, rgb(182, 103, 195) 26%,transparent 26%,
+ transparent 100%),radial-gradient(circle at center right, rgb(89, 6, 134) 0%, rgb(89, 6, 134) 3%,rgb(108, 25, 146) 3%,
+ rgb(108, 25, 146) 9%,rgb(126, 45, 158) 9%, rgb(126, 45, 158) 12%,rgb(145, 64, 171) 12%, rgb(145, 64, 171) 15%,
+ rgb(163, 83, 183) 15%, rgb(163, 83, 183) 21%,rgb(182, 103, 195) 21%, rgb(182, 103, 195) 24%,rgb(200, 122, 207) 24%, rgb(200, 122, 207) 100%);
+}
+.articles{
+    margin-top: 30px;
+}
+.articles .article{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+.articles .article .left img{
+    height: 300px;
+    width: 500px;
+}
+.articles .article .right{
+    max-width: 50%;
+    margin-left: 40px;
+}
+
+
+footer{
+    margin-top: 40px;
+    border-top: 5px solid #6f6f6f;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    padding: 30px 100px;
+}
